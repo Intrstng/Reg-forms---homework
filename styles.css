@@ -1,0 +1,92 @@
+* {
+    margin:0;
+}
+
+
+body {
+    background-color: rgb(9, 9, 161);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form-reg {
+    width:300px;
+    height:370px;
+    background-color: rgb(212, 212, 212);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+                                        padding:15px;
+                                        background-color: rgb(228, 238, 157);
+}
+
+
+.form-reg h2 {
+    color:red;
+    text-align: center;
+}
+
+.form-input, select, .btn {
+    font-family: inherit;
+    font-size:15px;
+    box-sizing: border-box;
+    width:100%;
+    display:block;
+    padding: 4px;
+    margin-top:15px;
+    border:1px solid grey;
+                                                        background-color:beige;
+}
+
+.form-input:focus, select:focus, .btn:focus {
+                                                        outline:none;
+    border:1px solid rgb(49, 47, 173);
+    background-color: rgb(185, 169, 144);
+}
+
+select {
+                                                        height:28px;
+}
+
+.btn {
+    background-color: rgb(56, 189, 3);
+    color:white;
+    border:1px solid grey;
+    border-bottom: 2px solid rgb(82, 81, 81);
+    border-right:2px solid rgb(82, 81, 81);
+    padding: 8px;
+ }
+
+ .btn:hover,
+ .btn:focus {
+    background-color: rgb(52, 173, 5);
+    border-top: 2px solid rgb(82, 81, 81);
+    border-left:2px solid rgb(82, 81, 81);
+    border-bottom:none;
+    border-right:none;
+    cursor:pointer;
+ }
+
+ .checkbox {
+    margin:15px 6px 0px 4px;
+ }
+ .checkbox label {
+    padding-left:10px;
+ }
+
+
+ /* Page login.html */
+ .form-login h2 {
+    color:red;
+    text-align: center;
+}
+
+ .form-login {
+    width:300px;
+    height:167px;
+    background-color: rgb(212, 212, 212);
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+                                        padding:15px;
+                                        background-color: rgb(228, 238, 157);
+}
